@@ -1,0 +1,107 @@
+@media (min-width:700px){
+    /*MENU*/
+    #contenedor_anclas{
+        color: aliceblue;
+        display: flex;
+            align-items: center;
+            justify-self: center;
+        padding: 0.5em;
+    }
+    .ancla_nav{
+        padding: 0.5em;
+        text-decoration: none;
+        letter-spacing: 1px;
+        color: aliceblue;
+    }
+    
+    #menu_desplegable{
+        display: none;
+    }
+ 
+  /*TARJETA PRESENTACION*/
+  #contenedor_presentacion{
+    height: 20em;
+    display: flex;          
+            justify-content: center;
+            align-items: center;
+
+  }
+    #tarjeta_presentacion{
+        padding: 1em;
+        width: 85%;
+        height: 15em;
+        display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+    }
+
+    #titulo_tarjeta_presentacion{
+        text-align:start;  
+        letter-spacing: 1px;
+        padding: 0.5em;
+    }
+    
+
+
+    #texto_tarjeta_presentacion{
+        display: flex;
+            flex-direction: column;
+        text-align:start;    
+        width: 65%;
+        padding: 0.5em;
+    }
+
+    
+    #foto_tarjeta_presentacion {
+        background-image: url(/CSS/img/profile.png);
+        display: flex;
+        width: 30%;
+        height: 100%;
+    }
+
+
+    /*TARJETAS TRABAJOS*/
+
+
+    #contenedor_trabajos{
+        display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+    }
+
+    .tarjeta_trabajo{
+        width: 30%;
+    }
+
+    /*FORMULARIO*/
+    #contenedor_formulario{
+        width: 60%;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        margin: auto;    
+    }
+
+    .formulario{
+        height: 30%;
+    }
+
+}
+
+@media(min-width: 950px){
+
+    #contenedor_presentacion{
+        height: 20em;
+    }
+    #tarjeta_presentacion{
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    #texto_tarjeta_presentacion{
+        padding: 1em;
+        text-align: justify;  
+        width: 55%;
+    }
+}

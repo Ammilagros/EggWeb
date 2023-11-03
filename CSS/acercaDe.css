@@ -1,0 +1,28 @@
+#tarjeta_presentacion{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    padding: 1em;    
+}
+
+#texto_tarjeta_presentacion{
+   text-align: center;
+    padding: 1em;
+}
+
+#titulo_tarjeta_presentacion{
+    color: #13293D;
+    letter-spacing: 1px;
+    padding: 1em;
+}
+
+
+#foto_tarjeta_presentacion{
+    display: flex;
+    height: 15em;
+    width: 80%;
+    background-image: url(/CSS/img/profile.png);
+    background-size: cover;
+    border-radius: 5px;
+}

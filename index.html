@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Egg</title>
+    <link rel="stylesheet" href="/CSS/nav.css">
+    <link rel="stylesheet" href="/CSS/acercaDe.css">
+    <link rel="stylesheet" href="/CSS/banner.css">
+    <link rel="stylesheet" href="/CSS/trabajos.css">
+    <link rel="stylesheet" href="/CSS/general.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
+    <link rel="stylesheet" href="/CSS/formulario.css">
+    
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+</head>   
+<body>
+<div id="contenedor_principal">
+
+    <div id="nav_contenedor">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+    
+          <nav class="navbar">
+            <ul class="menu">
+              <li><a class="navli" href="index.html">Inicio</a></li>
+              <li><a class="navli" href="#seccion-principal">Acerca de</a></li>
+              <li><a class="navli" href="#trabajos">Trabajos</a></li>
+              <li><a class="navli" href="#trabajos">Servicios</a></li>
+              <li><a class="navli" href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
+    </div>
+
+    <main>
+        <section id="contenedor_presentacion">
+            
+            <div id="tarjeta_presentacion">
+                <div id="texto_tarjeta_presentacion">
+                    <h2 id="titulo_tarjeta_presentacion">Sobre Mi</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus molestie purus. Aenean massa felis, iaculis nec laoreet in, scelerisque in diam. Sed eu lacinia ex. Praesent blandit libero eget mauris ultricies ultrices. 
+                        Pellentesque vitae porta ex. Nullam semper velit elit.
+                         Nam pellentesque metus nec aliquam dictum.</p>
+                </div>
+
+                <div id="foto_tarjeta_presentacion">
+
+                </div>
+            </div> 
+        </section>
+
+        <section id="banner"></section>
+
+        <section id="contenedor_trabajos">
+
+            <div class="tarjeta_trabajo">
+                <div class="img_trabajo"></div>
+                <div class="descripcion_trabajo">
+                    <h3 class="titulo_tarjeta_trabajo">Trabajo 1</h3>
+                    <P>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus molestie purus. Aenean massa felis, iaculis nec laoreet in, scelerisque in diam. Sed eu lacinia ex. Praesent blandit libero eget mauris ultricies ultrices. 
+                        Pellentesque vitae porta ex. Nullam semper velit elit. 
+                        Nam pellentesque metus nec aliquam dictum.
+                    </P>
+                </div>
+                <a href="" class="leer_mas">Seguir leyendo</a>
+            </div>
+
+            <div class="tarjeta_trabajo">
+                <div class="img_trabajo"></div>
+                <div class="descripcion_trabajo">
+                    <h3 class="titulo_tarjeta_trabajo">Trabajo 2</h3>
+                    <P>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus molestie purus. Aenean massa felis, iaculis nec laoreet in, scelerisque in diam. Sed eu lacinia ex. Praesent blandit libero eget mauris ultricies ultrices. 
+                        Pellentesque vitae porta ex. Nullam semper velit elit. 
+                        Nam pellentesque metus nec aliquam dictum.
+                    </P>
+                </div>
+                <a href="" class="leer_mas">Seguir leyendo</a>
+            </div>
+
+            <div class="tarjeta_trabajo">
+                <div class="img_trabajo"></div>
+                <div class="descripcion_trabajo">
+                    <h3 class="titulo_tarjeta_trabajo">Trabajo 3</h3>
+                    <P>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus molestie purus. Aenean massa felis, iaculis nec laoreet in, scelerisque in diam. Sed eu lacinia ex. Praesent blandit libero eget mauris ultricies ultrices. 
+                        Pellentesque vitae porta ex. Nullam semper velit elit. 
+                        Nam pellentesque metus nec aliquam dictum.
+                    </P>
+                </div>
+                <a href="" class="leer_mas">Seguir leyendo</a>
+            </div>
+        </section>
+
+        <section id="contenedor_formulario">
+            <div id="contenedor_titulo_formulario">
+                <h2>Contactame!</h2>
+            </div>
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email"type="email" placeholder="pepe@gmail.com"/>
+                </div>
+
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <button>Enviar</button>
+                </div>
+            </form>
+            <span id="alertas" class="alertas"></span>
+        </section>
+    </main>
+
+    <footer>
+        <span id="footer_texto">Maria Milagros Andres 2023</span>
+    </footer>
+
+</div>
+<script src="/JS/script.js"></script>
+<script src="/JS/validacion_form.js"></script>
+<script src="/JS/navbar.js"></script>
+</body>
+  
+</html>
